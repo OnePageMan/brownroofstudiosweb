@@ -1,0 +1,403 @@
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-Black.woff2') format('woff2'),
+        url('../campton/Campton-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-BlackItalic.woff2') format('woff2'),
+        url('../campton/Campton-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../campton/Campton-Bold.woff2') format('woff2'),
+        url('../campton/Campton-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ExtraBoldItalic.woff2') format('woff2'),
+        url('../campton/Campton-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../campton/Campton-Book.woff2') format('woff2'),
+        url('../campton/Campton-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../campton/Campton-BookItalic.woff2') format('woff2'),
+        url('../campton/Campton-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ExtraBold.woff2') format('woff2'),
+        url('../campton/Campton-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../campton/Campton-BoldItalic.woff2') format('woff2'),
+        url('../campton/Campton-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ExtraLightItalic.woff2') format('woff2'),
+        url('../campton/Campton-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-Light.woff2') format('woff2'),
+        url('../campton/Campton-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ExtraLight.woff2') format('woff2'),
+        url('../campton/Campton-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-Medium.woff2') format('woff2'),
+        url('../campton/Campton-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-LightItalic.woff2') format('woff2'),
+        url('../campton/Campton-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-MediumItalic.woff2') format('woff2'),
+        url('../campton/Campton-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-SemiBold.woff2') format('woff2'),
+        url('../campton/Campton-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-Thin.woff2') format('woff2'),
+        url('../campton/Campton-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ThinItalic.woff2') format('woff2'),
+        url('../campton/Campton-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-SemiBoldItalic.woff2') format('woff2'),
+        url('../campton/Campton-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+body{
+    font-family: 'Campton', Arial, sans-serif;
+    background-color: #211B16;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+
+#Heading{
+    color: white;
+}
+
+
+
+/*This is the div for the navigation on the top*/
+
+.horLine{
+    display: none;
+}
+
+#hamburger, #close{
+    display:none;
+}
+
+#AlltpNav{
+    margin: auto;
+}
+
+
+#TpNav{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    margin: -10px;
+    padding: 50px 0px 30px 0px;
+}
+
+
+
+
+#BRSLogo{
+    width: 125px;
+   /* margin-top: -15px;*/
+    padding-right:40px;
+}
+
+#lisLst{
+    padding: px;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    margin-top: -0.2%;
+
+}
+
+#lisLst li {
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding-inline: 90px;
+}
+
+#lisLst li a {
+    color: white;
+    display:inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.chaInfoforFlex{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.flxIns{
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.chrImgs{
+    width:500px
+}
+
+
+
+
+.chaInfoforFlex  h2{
+    color: white;
+    font-size: 50px;
+
+}
+
+
+.chaInfoforFlex p{
+    max-width: 300px;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+/*This is the beginnning of the mobile version*/
+
+@media (max-width:600px){
+
+    
+body{
+    font-family: 'Campton', Arial, sans-serif;
+    background-color: #211B16;
+    overflow-x: hidden !important;
+    margin:0;
+
+    box-sizing: border-box;
+    margin-right:0;
+    
+}
+
+  /* Navbar */
+
+  
+
+  #TpNav{
+    display:flex;
+    padding: 25px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    height: 10.5vh;
+    margin: auto;
+}
+
+#TpNav #logoLink{
+    height: 45px;
+}
+
+
+
+#hamburger{
+    display:block;
+}
+
+#BRSLogo{
+    margin:0;
+    padding:0;
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+
+.active{
+    display: block;
+}
+
+#lisLst{
+    display:none;
+    position:absolute;
+    z-index: 4;
+    background-color: #11100fd0;
+    width: inherit;
+    /* height: 40vh; */
+    top: 10.5vh;
+    margin:0;
+    right: 0;
+
+}
+
+.horLine{
+    display: block;
+}
+#lisLst li{
+    width: 100vw;
+}
+
+#lisLst li a{
+    padding: 30px;
+    height:auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+/*This is the  beginning of the div for the Characters info*/
+
+.chaInfoforFlex{
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.flxIns{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.chrImgs{
+    width:300px
+}
+
+
+
+
+.chaInfoforFlex  h2{
+    color: white;
+    font-size: 30px;
+
+}
+
+
+.chaInfoforFlex p{
+    max-width: 300px;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: -20px;
+}
+
+
+}

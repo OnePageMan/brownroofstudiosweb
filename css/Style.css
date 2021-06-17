@@ -1,0 +1,1312 @@
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-Black.woff2') format('woff2'),
+        url('../campton/Campton-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-BlackItalic.woff2') format('woff2'),
+        url('../campton/Campton-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../campton/Campton-Bold.woff2') format('woff2'),
+        url('../campton/Campton-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ExtraBoldItalic.woff2') format('woff2'),
+        url('../campton/Campton-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../campton/Campton-Book.woff2') format('woff2'),
+        url('../campton/Campton-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../campton/Campton-BookItalic.woff2') format('woff2'),
+        url('../campton/Campton-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ExtraBold.woff2') format('woff2'),
+        url('../campton/Campton-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton Book';
+    src: url('../campton/Campton-BoldItalic.woff2') format('woff2'),
+        url('../campton/Campton-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ExtraLightItalic.woff2') format('woff2'),
+        url('../campton/Campton-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-Light.woff2') format('woff2'),
+        url('../campton/Campton-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ExtraLight.woff2') format('woff2'),
+        url('../campton/Campton-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-Medium.woff2') format('woff2'),
+        url('../campton/Campton-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-LightItalic.woff2') format('woff2'),
+        url('../campton/Campton-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-MediumItalic.woff2') format('woff2'),
+        url('../campton/Campton-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-SemiBold.woff2') format('woff2'),
+        url('../campton/Campton-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-Thin.woff2') format('woff2'),
+        url('../campton/Campton-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-ThinItalic.woff2') format('woff2'),
+        url('../campton/Campton-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../campton/Campton-SemiBoldItalic.woff2') format('woff2'),
+        url('../campton/Campton-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+body{
+    font-family: 'Campton', Arial, sans-serif;
+    background-color: #211B16;
+    overflow-x: hidden;
+}
+
+/*This is the div for all the Body*/
+#AllBdy{
+}
+
+
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+
+/*This is the div for all the top section for the landing page*/
+#AllTpLP{
+    background-image: url("TopHomeImage.jpg");
+    background-size: cover;
+    width: auto;
+    Height: 700px;
+    margin: -9px;
+    text-align: center;
+}
+
+#AllTpLP h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 400px;
+    font-size: 4em;
+    max-width: 800px;
+    justify-items: center;
+    margin: auto;
+
+}
+
+
+
+
+/*This is the div for the navigation on the top*/
+
+.horLine{
+    display: none;
+}
+
+#hamburger, #close{
+    display:none;
+}
+
+#AlltpNav{
+    margin: auto;
+}
+
+#TpNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 50px 0px 30px 0px;
+}
+
+#TpNav #logoLink{
+    /* height: 150px; */
+}
+
+
+
+#BRSLogo{
+    width: 125px;
+    /* margin-top: -15px; */
+    padding-right:40px;
+}
+
+#lisLst{
+    padding: 0px;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    margin-top: -0.2%;
+
+}
+
+#lisLst li {
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding-inline: 90px;
+}
+
+#lisLst li a {
+    color: white;
+    display:inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+/*THis is the beginning of the seond section for the website*/
+
+
+#nxtSect{
+    text-align: center;
+}
+
+#SecSectbgtxt{
+    color: white;
+}
+
+#secTwoImgs{
+    padding-left: -20px;
+}
+
+
+#secTwoImgOne{
+    margin-right:60px;
+    width: 240px;
+}
+
+#secTwoImgTwo{
+    width: 240px;
+}
+
+/*This is the div for the view more button*/
+
+#vwMor p{
+
+}
+
+
+#vwMorChld{
+    max-width: 200px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #211B16;
+    padding-left: 30px;
+}
+
+
+#vwMorChld:hover{
+    max-width: 200px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #181310;
+    padding-left: 30px;
+}
+
+
+
+#vwMorTxt{
+    color:#FFA300;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+#vwMorIcn{
+    padding-left: 20px;
+    width: 23px;
+}
+
+
+/*This is the div for the third section*/
+
+.thirdSect{
+    text-align: center;
+}
+
+#trdSectYemoja{
+    max-width: 1100px;
+}
+
+/*This is the div for the forth section of the website*/
+
+
+.forthSect{
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+#fstImg{
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+}
+
+#fstImg:hover{
+    transform: translateY(20px);
+}
+
+#fstImg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 700px;
+    height: 465px;
+    background:linear-gradient(4deg, rgba(33,27,22,1) 0%, rgba(33,27,22,0.17970938375350143) 100%);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+#fstImg:hover:before{
+    opacity: 2;
+
+}
+
+#fthSectYemoja{
+    width: 550px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+
+#TxtInfo{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.5s all;
+    padding-top: 250px;
+    margin-left: 40px;
+}
+
+#TxtInfo:hover{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+#SecImg{
+    position: relative;
+    margin-top: -38px;
+}
+
+
+#secimgDiv{
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+}
+
+#secimgDiv:hover{
+    transform: translateY(20px);
+}
+
+#secimgDiv::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 510px;
+    height: 270px;
+    background:linear-gradient(4deg, rgba(33,27,22,1) 0%, rgba(33,27,22,0.17970938375350143) 100%);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+
+#secimgDiv:hover:before{
+    opacity: 2;
+}
+
+
+#fthSectGboka{
+    width: 500px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 76px;
+
+
+}
+
+
+#TxtInfoGbo{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.5s all;
+    padding-top: 250px;
+    margin-left: 180px;
+    margin-top: -100px;
+    width: 400px;
+}
+
+
+#TxtInfoGbo:hover{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+
+#trdimgDiv{
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+    margin-top: 50px;
+}
+
+#trdimgDiv:hover{
+    transform: translateY(20px);
+}
+
+
+#trdimgDiv::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 510px;
+    height: 178px;
+    background:linear-gradient(4deg, rgba(33,27,22,1) 0%, rgba(33,27,22,0.17970938375350143) 100%);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+
+#trdimgDiv:hover:before{
+    opacity: 2;
+}
+
+
+#fthSectTimi{
+    width: 500px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -32px;
+}
+
+
+
+#TxtInfoTimi{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.5s all;
+    margin-left: 200px;
+    margin-top: -30px;
+    width: 300px;
+}
+
+#TxtInfoTimi:hover{
+    transform: translatex(00px);
+    opacity: 1;
+}
+
+
+
+/*This is the beginning of the fifth section for the website*/
+
+#bgClr{
+        background-color: #1b1510;
+        margin: -8px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+}
+#fifthSect{
+    display: flex;
+    justify-content: center;
+    max-width: 2000px;
+    margin: auto;
+}
+
+#abtMis{
+    width: 300px;
+}
+
+#abtMis h2 {
+    color:#FFA300;
+}
+
+#abtMis p{
+    color: white;
+}
+
+/*This is the beginning of the fifth section contact us for the website*/
+#contactUs{
+    margin-left: 40px;
+    border-left: 1px #FFA300 solid;
+    padding-left: 40px;
+}
+
+#contactUs h2{
+    color:#FFA300
+}
+
+#CtUsMail{
+    display: flex;
+
+}
+
+#CtUsMailImg{
+    width: 30px;
+}
+
+#CtUsMail p{
+    color: white;
+    margin-left: 10px;
+}
+
+
+.SocialIcnsIcons{
+    width: 30px;
+    padding-left: 20px;
+}
+
+/*This is the section for the mail subscription form*/
+
+#MailSub{
+    width: 200px;
+    margin-left: 40px;
+    border-left: 1px #FFA300 solid;
+    padding-left: 40px;
+}
+
+#MailSub h2{
+    color: #FFA300
+}
+
+#SubBtn{
+    background-color: #FFA300;
+    padding: 15px 40px;
+    border: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+#SubBtn:hover{
+    background-color: #ffb941;
+    padding: 15px 40px;
+    border: none;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+
+.clearfix {
+    overflow: auto;
+  }
+
+
+
+
+
+
+  
+/*This is the beginning of the tablet view*/
+
+@media (max-width: 1280px) {
+
+
+    body{
+        font-family: 'Campton', Arial, sans-serif;
+        background-color: #211B16;
+        overflow-x: hidden;
+    }
+
+    a:link    {color:#000000; background-color:transparent; text-decoration:none}
+
+
+
+    /*This is the div for all the top section for the landing page*/
+#AllTpLP{
+    background-image: url("TopHomeImage.jpg");
+    background-size: cover;
+    width: auto;
+    Height: 700px;
+    margin: -9px;
+    text-align: center;
+}
+
+#AllTpLP h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 400px;
+    font-size: 4em;
+    max-width: 800px;
+    justify-items: center;
+    margin: auto;
+
+}
+
+
+/*This is the div for the navigation on the top*/
+
+.horLine{
+    display: none;
+}
+
+#hamburger, #close{
+    display:none;
+}
+
+#AlltpNav{
+    margin: auto;
+}
+
+#TpNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 50px 0px 30px 0px;
+}
+
+#TpNav #logoLink{
+    /* height: 150px; */
+}
+
+
+
+#BRSLogo{
+    width: 125px;
+    /* margin-top: -15px; */
+    padding-right:40px;
+}
+
+#lisLst{
+    padding: 0px;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    margin-top: -0.2%;
+
+}
+
+#lisLst li {
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding-inline: 90px;
+}
+
+#lisLst li a {
+    color: white;
+    display:inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/*THis is the beginning of the seond section for the website*/
+
+
+#nxtSect{
+    text-align: center;
+}
+
+#SecSectbgtxt{
+    color: white;
+}
+
+#secTwoImgs{
+    padding-left: -20px;
+}
+
+
+#secTwoImgOne{
+    margin-right:60px;
+    width: 290px;
+}
+
+#secTwoImgTwo{
+    width: 290px;
+}
+
+/*This is the div for the view more button*/
+
+#vwMor p{
+
+}
+
+
+#vwMorChld{
+    max-width: 200px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #211B16;
+    padding-left: 30px;
+}
+
+
+#vwMorChld:hover{
+    max-width: 200px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #181310;
+    padding-left: 30px;
+}
+
+
+
+#vwMorTxt{
+    color:#FFA300;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+#vwMorIcn{
+    padding-left: 20px;
+    width: 25px;
+}
+
+/*This is the div for the third section*/
+
+.thirdSect{
+    text-align: center;
+}
+
+#trdSectYemoja{
+    max-width: 1000px;
+}
+
+
+/*This is the div for the forth section of the website*/
+
+
+.forthSect{
+    display: flex;
+    max-width: 900px;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+#fstImg{
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+}
+
+#fstImg:hover{
+    transform: translateY(20px);
+}
+
+
+#fthSectYemoja{
+    width: 550px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+
+#TxtInfo{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.5s all;
+    padding-top: 250px;
+    margin-left: 40px;
+}
+
+#TxtInfo:hover{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+#SecImg{
+    position: relative;
+    margin-top: -38px;
+}
+
+
+#secimgDiv{
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+}
+
+#secimgDiv:hover{
+    transform: translateY(20px);
+}
+
+
+
+#fthSectGboka{
+    width: 400px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 76px;
+
+
+}
+
+
+#TxtInfoGbo{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.5s all;
+    padding-top: 250px;
+    margin-left: 180px;
+    margin-top: -100px;
+    width: 400px;
+}
+
+
+#TxtInfoGbo:hover{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+
+#trdimgDiv{
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+    margin-top: 50px;
+}
+
+#trdimgDiv:hover{
+    transform: translateY(20px);
+}
+
+
+
+#fthSectTimi{
+    width: 400px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -32px;
+}
+
+
+
+#TxtInfoTimi{
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.5s all;
+    margin-left: 200px;
+    margin-top: -30px;
+    width: 300px;
+}
+
+#TxtInfoTimi:hover{
+    transform: translatex(00px);
+    opacity: 1;
+}
+
+
+
+
+}
+
+
+
+
+/*This is the beginning of the media query for the mobile version*/
+
+@media (max-width:600px)
+{
+
+body{
+    font-family: 'Campton', Arial, sans-serif;
+    background-color: #211B16;
+    overflow-x: hidden !important;
+    margin:0;
+    width: 100% !important;
+    box-sizing: border-box;
+    margin-right:0;
+    
+}
+
+/* Navbar */
+
+#TpNav{
+    display:flex;
+    padding: 25px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    box-sizing: border-box;
+    height: 10vh;
+    margin: auto;
+}
+
+#TpNav #logoLink{
+    height: 45px;
+}
+
+
+
+#hamburger{
+    display:block;
+}
+
+#BRSLogo{
+    margin:0;
+    padding:0;
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+
+.active{
+    display: block;
+}
+
+#lisLst{
+    display:none;
+    position:absolute;
+    z-index: 4;
+    background-color: #11100fd0;
+    width: 100%;
+    /* height: 40vh; */
+    top: 10vh;
+    margin:0;
+    left: 0;
+    right: 0;
+
+}
+
+.horLine{
+    display: block;
+}
+#lisLst li{
+    width: 100vw;
+}
+
+#lisLst li a{
+    padding: 30px;
+    height:auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
+#AllTpLP{
+
+    background-image: url("TopHomeImage.jpg");
+    background-size: cover;
+    background-position: center;
+    width: inherit;
+    Height: 83vh;
+    margin: 0;
+    text-align: center;
+  
+}
+
+#AllTpLP h1{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 0 50px;
+    padding-top: 310px;
+    max-width: 400px;
+    margin-top: 0px;
+    text-align:  center;
+    margin-bottom: 10px;
+
+}
+
+
+
+/*THis is the beginning of the seond section for the website*/
+
+
+#nxtSect{
+    text-align: center;
+    margin: auto;
+}
+
+#SecSectbgtxt{
+    color: white;
+}
+
+#secTwoImgs{
+    display: inline;
+}
+
+
+#secTwoImgOne{
+    width: 240px;
+    margin:0px;
+}
+
+#secTwoImgTwo{
+    width: 240px;
+    margin-top: 50px;
+}
+
+
+
+
+
+/*This is the div for the view more button*/
+
+#vwMor p{
+
+}
+
+
+#vwMorChld{
+    width: 150px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #211B16;
+  
+}
+
+
+#vwMorChld:hover{
+    max-width: 200px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #181310;
+    padding-left: 30px;
+}
+
+
+
+#vwMorTxt{
+    color:#FFA300;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+#vwMorIcn{
+    padding-left: 20px;
+    width: 17px;
+}
+
+
+
+/*This is the div for the third section*/
+
+
+
+#trdSectYemoja{
+    max-width: 460px;
+   
+}
+
+.thirdSect img{
+    width: 100vw;
+}
+
+/* 4th Section */
+.forthSect{
+    display: block;
+    /* align-items: center; */
+    width: 80vw;
+    margin: auto;
+}
+
+#fstImg, #secimgDiv, #trdimgDiv{
+    /* transform: scale(0.7); */
+    box-sizing: border-box;
+    left: 0px;
+    margin: auto;
+
+}
+
+#fstImg img, #secimgDiv img, #trdimgDiv img{
+    left: 0px;
+    width: 75vw;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0px;
+}
+
+#secimgDiv img{
+    left: 0px;
+    width: 75vw;
+}
+
+#fstImg:hover{
+    transform: translateY(0px);
+}
+
+#secimgDiv::before, #fstImg::before, #trdimgDiv::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 75vw;
+    height: 100%;
+    background:linear-gradient(4deg, rgb(29, 27, 26) 0%, rgba(33, 27, 22, 0) 100%);
+    z-index: 2;
+    /* transition: 0.5s all; */
+    opacity: 1;
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+#fstImg:hover:before{
+    opacity: 2;
+
+}
+
+#TxtInfo, #TxtInfoGbo, #TxtInfoTimi{
+    opacity:1;
+}
+
+#TxtInfo, #TxtInfoGbo, #TxtInfoTimi{
+    width: 60%;
+    position: relative;
+    z-index: 3;
+    color: white;
+    transform: translateX(0px);
+    transition: 0.5s all;
+    padding-top: 83px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    margin-right: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#SecImg{
+    margin-top: 0px;
+}
+
+#secimgDiv img{
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+#fifthSect{
+    display: block;
+    /* justify-content: center; */
+    max-width: 80vw;
+    margin: auto;
+}
+
+#CtUsMail{
+    display:block;
+}
+
+#CtUsMail p{
+    font-size: 10px;
+    display: inline-block;
+}
+
+.iconSet{
+    display:block;
+    margin-left:0;
+}
+
+.SocialIcnsIcons{
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.emailLink{
+    display:flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#mainWrapper{
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
